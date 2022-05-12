@@ -1,0 +1,122 @@
+
+/* Nav bar CSS */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: pink;
+}
+
+/* add borders */
+/*li {
+    border-right: 1px solid #bbb;
+}*/
+  
+li:last-child {
+    border-right: none;
+}
+
+/*----------------------------------------------------*/
+
+.topcolumn {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: palevioletred;
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: goldenrod;
+    background-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 30px;
+}
+
+
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.font {
+    font-size: 70%;
+    color: black;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .column, .column2, .topcolumn {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+

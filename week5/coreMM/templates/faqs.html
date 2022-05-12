@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'home.css' %}">
+<link rel="stylesheet" href="{% static 'faqs.css' %}">
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Make Me Up Maria</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+       
+    
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'aboutme' %}">About</a></li>
+            <li><a href="{% url 'contactme' %}">Contact</a></li>
+            <li><a href="{% url 'services' %}">Services</a></li>
+            <li><a href="{% url 'photos' %}">Photos</a></li>
+            <li><a href="{% url 'faqs' %}">FAQ's</a></li>
+            <li><a href="https://pocketsuite.io/book/make-me-up-maria-llc" target="_blank">Schedule an Appointment</a></li>
+        </ul><br><br><br><br>
+
+        <div class="center">
+            {% load static %} <img src="{% static "media/logo1.jpg" class="center" width=100% %}" alt="home" />
+        </div>
+
+        <h1>Faqs</h1>
+
+        <h3>What Is Microblading?</h3>
+        <p>A semipermanent technique for enhanching the appearance of the eyebrows, in which pigment is scratched into the skin in fine, short strokes resembling hair, using a hand tool with a blade formed of tiny needles.</p>
+        <p>It is a two-session procedure and it can be 3 months before you see final results. After the first intial appointment, you will need to return for your second session 6-8 weeks later. The second session is more important than the first because it is the adjusting and perfecting session.</p>
+        
+        <h3>How Long Does It Take?</h3>
+        <p>Our appointment will be set for 2 hours.</p>
+        <p>You will be:</p>
+        <p>Numb for 30 Mins</p>
+        <p>Get Started with the first pass</p>
+        <p>Second numbing agent is applied and sits for 10 mins</p>
+        <p>Finish the brows and let the ink sit for 20 mins</p>
+        
+        <p>You will be in and out in less than 2 hrs</p>
+        <p>Actual Microblading procedure is about 20-30 mins</p>
+
+        <h3>How Long Does It Last?</h3>
+        <p>The treatment will fade over time since its semi-permanent. However, it depends on a number of factors such as:</p>
+        
+        <p>cell turnover rate</p>
+        <p>how quick your body absorbs it</p>
+        <p>sun exposure</p> 
+        <p>skin type</p>
+        <p>chemical peels</p>
+        <p>how active the client is</p>
+        <p>how well you prep before appointment</p>
+        <p>how well you follow the post care treatment</p>
+        
+        <p>Please note that everyone is different so every client will have different results.</p>
+
+        <h3>What are Contraindications?</h3>
+        <p>Pregnant or Nursing</p>
+        <p>Chemotherapy Patients</p>
+        <p>Epilepsy</p>
+        <p>Currently Ill (cold, flu, etc)</p>
+        <p>Auto Immune Disease</p>
+        <p>Botox in brow area within 30 days</p>
+        <p>Accutane in the past year</p>
+        <p>Sinus Infection Issues</p>
+        <p>On any type of blood thinners</p>
+        <p>Major Heat Problems</p>
+        <p>Viral Infection</p>
+        <p>Allergy to lidocaine or epinephrine</p>
+    
+
+        <h3>Risk and Complications</h3>
+        <p>I take all proper precautions for a safe session by using sterilized equipment, new blades and in a sanitized environment.</p>
+        <p>Although allergic reactions to the pigments are rare, it could be possible for certain individuals. I suggest a pigment patch test for individuals who have high skin sensitivities or are sensitive to:</p>
+        <p>Topical Makeup Products</p>
+        <p>Gold, Silver and Nickel</p>
+        <p>Hair Dyes</p>
+
+        <h3>How Do I Prep For My Procedure?</h3>
+        <p>Refrain from blood thinners such as alcohol, ibuprofen, aleve, aspirin, vitamin E and fish oil capsules for atleast 24hrs MINIMUM. No caffeine the night before or the day of. We want your muscles to be nice and relaxed.</p>
+
+        <h3>How do I Take Care Of Them?</h3>
+        <p>Strict 10 day post care treatment.</p>
+        <p>Do not wet your brows or sweat for the first 2 days. You will then wash your brows twice a day with an antibacterial soap and flat cotton pads. Afterwards, you will mositurize the brows with grape seed oil, jojoba oil or coconut oil. You will do this for 8 days (detailed instructions will be discussed during time of appoinment). You will need to stay away from direct UV exposure. No brow makeup or sunblock on the brows for 10 days. Stay away from steam such as super hot showers, saunas, swimming, etc. You will scab and be patchy for 10 days. Please note, some heal quicker than others.</p>
+
+        <h3>What's the Healing Like?</h3>
+        <p>First Week: Much darker and fuller then they will heal to be. Color will lighten as the scab starts to fall off and strokes shrink a little.</p>
+        <p>Day 7-10: Dark scabing is falling off and then the color will be super faint as if they're gone. Do not panic, this is normal.</p>
+        <p>Week 3-6 the color will start to come back but color retention is never as great as it will be after the second session, hence why the second session is more important than the first.</p>
+
+        <h3>Does It Hurt?</h3>
+        <p>Pain threshold vary person to person. Topical numbing creams and gels are applied before and during the procedure. Women on their menstrual cycle will be sensitive.</p>
+
+        <h3>How Will I Feel and Look Immediately After The Appointment?</h3>
+        <p>Everyone is different but most leave with no pain and slight tenderness. Some leave with redness and slight puffiness around brows and others leave as if a procedure was not just completed. Fair women have some redness and slight swelling but it usually does not last too long after we are done.</p>
+
+        <h3>After My Second Session, When Will I Need Another Touchup?</h3>
+        <p>Color boost is recommended 8-12 months after your second session. By doing so, we will keep your brows fresh and crisp.</p>
+        <p>Some women might need it sooner, some might not need it for another 2-3 years. Women with little to no hair will need it more frequently. Women who only needed an enhancement can go longer.</p>
+
+        <h3>What's the Cost?</h3>
+        <p>Rates vary but check my latest Instagram post of before and after brow pics. In the caption, I will always put my current rate.</p>
+        <p>Rates always include the second session</p>
+        <p>If the current rate is $375 for April, May and June, you will not be able to schedule an appointment in April for October with the locked in rate for those months. The appointment must be made for those months inorder to receive the locked in rate.</p>
+        
+        <h3>Can I Reschedule Without Having to Pay Another Deposit?</h3>
+        <p>Your deposit is good for one reschedule as long as there is a one week notice. Anything less will result in needing a new deposit.</p>
+
+        <h3>Can I Get Microblading if My Brows are Tattooed or Previously Microbladed?</h3>
+        <p>Maybe!mA lot of times, strokes bleed into the tattoo and blend together. In some cases, that is great. If someone wants that natural look, they might not be able to achieve it.</p>
+        <p>Please note, I can not fix someone's brows if the shape is not fixable. For this reason, photos are required prior to booking.</p>
+        <p>In most cases, I am able to do something with tattooed brows. I focus on reshaping and color correcting. As long as the client understands that they will not have the same results as someone who doesn't have tattooed eyebrows, then we are good. They will, however, leave with a better shape (usually fuller) and a more natural color ink verses the blue, red, green, and purple healed tattooed brows.</p>
+
+        <h2>Booking Appointments</h2>
+        <p>The link about that says "Book An Appointment" is where you can book any occasion with me excluding weddings.</p>
+        <p>Microblading appointments can only be scheduled for Tuesday and Thursdays at 3pm, 5pm and 7pm. On Fridays at 10am and 12pm.</p>
+        <p>In order to secure your appointment time, you HAVE to pay your deposit. The site requires a credit card on file, but debit cards work as well.</p>
+        <p>Weddings are booked through me personally. Bridal trials are a must.  Trials can be scheduled through the site and will schedule the wedding during the appointment. </p>
+        <p>If you're booking a mobile makeup appoinment, the fee starts at $125 depending on when/where I travel.</p>
+        <p>Once you send me an appoinment request, I will gps your address and take a look at the time you're requesting for me to travel and then send you a message with the update fee BEFORE I confirm the appoinment and take the deposit.</p>
+        <p>My fee will not be the same if I am travelling west at 11am when there is no traffic verses 3pm when it is full blown traffic hour.</p>
+        <p>Please note, I work out of my in home studio on 24th street and my salon on 32nd st and Indian School. Most Saturdays I will be at the salon. I'll confirm which location as time gets closer to your appointment date.</p>
+        <p>You do not have to download my booking app in order to book your appointment. It will just have you confirm your phone number.</p>
+        <p>If you already have a card on file and I send you a deposit link, by pressing "2" to confirm, it will automatically withdraw the deposit amount.</p>
+        <p>I am unable to confirm any appointment if you do not have the funds in your account or if you enter wrong card numbers. I will get a message indicating "Payment declined with the following error - Your card was declined. Please enter another payment method and try again".</p>
+        <p>When booking an appoinment, the gratuity is automatically set to %15. You're able to change the amount and make it higher, lower, fixed amount or no gratuity.</p>
+        <p>Gratuity is not expected, only appreciated.</p>
+        <p>If I send you a deposit link, you're still able to change the gratuity amount.</p>
+        <p>Please do not feel obligated. I am not making you give a tip. The website manually has %15 set.</p>
+        <p>Thank You to those who do tip. Always appreciated more than you know.</p>
+        <p>Strict cancellation policy enforced. Before you enter your payment info, scroll down to read the entire policy.</p>
+        <p>$25 non-refundable deposit is required to hold the date.</p>
+        <p>STRICT AND ENFORCED 24 HOUR CANCELLATION POLICY</p>
+        <p>Please understand that when you forget or cancel your appointment without giving enough notice, I miss the opportunity to fill that appointment time. Our appointments are confirmed 48 hours in advance because I know how easy it is to forget an appointment you booked months ago. Since the services are reserved for you personally, a cancellation fee will apply. You will need to enter a CC to have on file.</p>
+        <p>Less than 24 hour notice will result in a charge equal to %50 of the reversed service amount.</p>
+        <p>"NO SHOWS" will be charged %100 of the reserved service amount.</p>
+
+
+        <h3>If you have any additional questions or concerns, please do not hesitate to reach out via the booking app, text feature, DM or email.</h3>
+
+        
+        
+        <script src="" async defer></script>
+    </body>
+    <div class="footer">
+        Powered by: Vanessa 
+    </div>
+
+</html>
+ 

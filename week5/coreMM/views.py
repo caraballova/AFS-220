@@ -11,10 +11,14 @@ def aboutme(request):
 def contactme(request):
     return render(request, 'contactme.html')
 
-def schedulewme(request):
-    return render(request, 'schedulewme.html')
+def services(request):
+    return render(request, 'services.html')
 
+def photos(request):
+    return render(request, 'photos.html')
 
+def faqs(request):
+    return render(request, 'faqs.html')
 
 
 

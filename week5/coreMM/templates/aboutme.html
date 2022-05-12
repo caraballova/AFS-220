@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
-<link rel="stylesheet" href="{% static 'home.css' %}"
+<link rel="stylesheet" href="{% static 'home.css' %}">
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -15,10 +16,16 @@
     
         <ul>
             <li><a href="{% url 'home' %}">Home</a></li>
-            <li><a href="{% url 'aboutme' %}">About</a></li>
             <li><a href="{% url 'contactme' %}">Contact</a></li>
-            <li><a href="{% url 'schedulewme' %}">Schedule an Appointment</a></li>
-        </ul>
+            <li><a href="{% url 'services' %}">Services</a></li>
+            <li><a href="{% url 'photos' %}">Photos</a></li>
+            <li><a href="{% url 'faqs' %}">FAQ's</a></li>
+            <li><a href="https://pocketsuite.io/book/make-me-up-maria-llc" target="_blank">Schedule an Appointment</a></li>
+        </ul><br><br><br><br>
+
+        <div class="center">
+            {% load static %} <img src="{% static "media/logo1.jpg" class="center" width=100% %}" alt="home" />
+        </div>
 
         <h1></h1>
 
@@ -26,4 +33,9 @@
         
         <script src="" async defer></script>
     </body>
+
+    <div class="footer">
+        Powered by: Vanessa
+    </div>
+
 </html>
